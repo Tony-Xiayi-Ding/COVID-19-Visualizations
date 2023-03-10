@@ -162,8 +162,7 @@ upper = base.mark_line(point=True).encode(
     alt.X('date:T',scale=alt.Scale(domain=brush),axis=alt.Axis(title='Date')),
     y =alt.Y('case_fatality_rate:Q',axis=alt.Axis(title='Case Fatality Rate (%)')),
     color = alt.Color('state',legend=alt.Legend(title='States')),
-    tooltip = ["date:T","case_fatality_rate:Q",'state:N'],
-    point = False
+    tooltip = ["date:T","case_fatality_rate:Q",'state:N']
 ).transform_filter(
     brush
 )
