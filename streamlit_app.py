@@ -122,7 +122,6 @@ state = st.multiselect("States",df_wide['state'].unique(),[
     "Georgia",
     "Louisiana",
     "Massachusetts",
-    "New Jersey",
     "New York",
 ])
 
