@@ -11,6 +11,6 @@ The second dataset is compiled by Our World in Data, and it contains information
 2. The temporal evolution of COVID-19 vaccination counts and case fatality rates in the US
 3. The geographical distribution of COVID-19 cases, deaths, and vaccinations administered per hundred people in the US
 
-#### Notes: 
-1. All visualizations presented below are built on data from Jan. 12nd, 2021 to Dec. 30th, 2021.
+#### Notes about the visualizations: 
+1. All visualizations presented are built using data from Jan. 12nd, 2021 to Dec. 30th, 2021.
 2. Case Fatality Rate for COVID-19 is calculated as the number of deaths from COVID-19 divided by the number of confirmed cases of COVID-19.
