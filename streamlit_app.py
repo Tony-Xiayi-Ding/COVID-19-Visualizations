@@ -120,7 +120,9 @@ st.write("#### Temporal evolution of COVID-19 vaccination counts and case fatali
 state = st.multiselect("States",df_wide['state'].unique(),[
     "Florida",
     "Georgia",
+    "Louisiana",
     "Massachusetts",
+    "New Jersey",
     "New York",
 ])
 
