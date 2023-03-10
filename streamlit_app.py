@@ -130,6 +130,8 @@ subset = df_wide[df_wide["state"].isin(state)]
 #state_dropdown = alt.binding_select(options=state)
 #state_select = alt.selection_single(fields=['state'], bind=state_dropdown, name="state",init={'state':'Alabama'})
 
+st.write("<b>Tip: Select an interval on the stacked area chart below to see how the line chart will change accordingly.</b>", unsafe_allow_html=True)
+
 # case fatality rate over the year of 2021
 base = alt.Chart(subset).properties(
     width=650
