@@ -1,7 +1,9 @@
 # Visualizing the COVID-19 cases, deaths, and vaccinations data in the US
 
 ## Datasets used:
-The first dataset is produced by the New York Times, and it focuses on COVID-19 cases and deaths within each county/state of the US in 2021 (i.e. it records cases and deaths of COVID-19 each day by county). The second dataset is compiled by Our World in Data, and it contains information on the various vaccination data of each state throughout the years. 
+The first dataset is produced by the New York Times, and it focuses on COVID-19 cases and deaths within each county/state of the US in 2021 (i.e. it records cases and deaths of COVID-19 each day by county). 
+
+The second dataset is compiled by Our World in Data, and it contains information on the various vaccination data of each state throughout the years. 
 
 ## What can you expect to learn from this project?
 
