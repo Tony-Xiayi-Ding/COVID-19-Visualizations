@@ -26,7 +26,6 @@ def load_data2():
     df_case = pd.read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties-2021.csv")
     df_vac = pd.read_csv("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/us_state_vaccinations.csv")
     # start from 2021-01-12
-    # since the record for df_vac began from 2021-01-12
     df_case = df_case[df_case['date'] > '2021-01-11']
     # groupby cases and deaths for same date
     df_case = df_case.groupby(['date','state']).agg({'cases': 'sum', 'deaths': 'sum'})
@@ -80,7 +79,6 @@ source = load_data3()
 
 text_0 = "Visualizing the Impact of COVID-19 and the Vaccination Data in 2021"
 st.write(f'<div style="text-align: center; font-size: 42px">{text_0}</div>', unsafe_allow_html=True)
-#st.write("## Visualizing the Impact of COVID-19 and the Vaccination Statuses in 2021")
 
 st.write("Please note:")
 st.write("  1. All visualizations presented below are built on data from Jan. 12nd, 2021 to Dec. 30th, 2021. ")
@@ -110,7 +108,6 @@ st.altair_chart(chart)
 
 st.write("#### Temporal evolution of COVID-19 vaccination counts and case fatality rate in the US over the year of 2021:")
 # create a drop-down state selector
-#state = st.selectbox("Please select a state:",df_wide['state'].unique())
 
 state = st.multiselect("States",df_wide['state'].unique(),[
     "Florida",
